@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Norican);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+
+
+body {
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bc2500+0,db9a90+50,bc2500+100 */
+background: #bc2500; /* Old browsers */
+background: -moz-linear-gradient(left,  #bc2500 0%, #db9a90 50%, #bc2500 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#bc2500), color-stop(50%,#db9a90), color-stop(100%,#bc2500)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #bc2500 0%,#db9a90 50%,#bc2500 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #bc2500 0%,#db9a90 50%,#bc2500 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #bc2500 0%,#db9a90 50%,#bc2500 100%); /* IE10+ */
+background: linear-gradient(to right,  #bc2500 0%,#db9a90 50%,#bc2500 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc2500', endColorstr='#bc2500',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+img#flower {width: 100%;
+}
+
+.fancy{
+	font-family: 'Norican', cursive;
+}
+
+.fancy1{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.big{
+font-size:6em !important; 
+}
+
+.contact{ text-align: right;
+}
+.pad-left {
+	padding-left: 36px;
+}
+
+.logo {
+	width: 28px;
+	height: 28px;
+
+}
+
+.email{
+	width:43px;
+	height:43px;
+	margin:-7px;
+}
+
+.gallery img{
+	margin-bottom:20px;
+	border-radius:5px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+	background-color: #eee;
+	width: 100%;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.description{
+	font-size: 1.2em;
+}
+
+
+hr {
+	border-color:black;
+	background-color:black;
+	color:black;
+}
+
+.hours{
+	font-size: 15px !important;
+}
+
+.opening{
+	font-size: 5em;
+	text-align: center;
+}
+
+address{
+	margin-bottom: 0;
+}
+
+.benefits{
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns:3;
+	list-style-type: none;
+	text-align: left;
+
+}
+
+.price {
+	font-size: 20px;
+}
+
+.table.price td, .table.price th{
+	width: 33%;
+	text-align: center;
+}
