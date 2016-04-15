@@ -17,8 +17,12 @@ gulp.task('prettify', function() {
 });
 
 gulp.task('gzip', ['prettify'], function () {
+<<<<<<< c415b613b4a502f6fcd20b269f5833e4bb22c393
     gulp.src('./src/index.html')
         .pipe(gzip())
+=======
+    gulp.src('./src/*.html')
+>>>>>>> updating for deploy
         .pipe(gulp.dest('./deploy'));
 });
 
