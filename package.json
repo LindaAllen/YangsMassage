@@ -1,0 +1,29 @@
+{
+  "name": "yangs-massage",
+  "version": "1.0.0",
+  "description": "Yangs Massage.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LindaAllen/YangsMassage.git"
+  },
+  "author": "Linda Allen <lindaallenx@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/LindaAllen/YangsMassage/issues"
+  },
+  "homepage": "www.yangsmassage.com",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-gzip": "^1.2.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-open": "^1.0.0",
+    "gulp-prettify": "^0.4.0",
+    "gulp-s3": "^0.3.0",
+    "gulp-s3-gzip": "^0.3.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}

@@ -1,1 +1,5 @@
 .DS_STORE
+## Node
+node_modules/
+deploy/
+aws.json
